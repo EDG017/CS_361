@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Simple Reddit</title>
+  <link rel="stylesheet" href="pages.css" type="text/css">
+ </head>
+
+ <body>
+
+     <h1>
+        <span class="multicolortext">Simple Reddit</span>
+     </h1>
+
+<div class="container">
+    <div class="selector">
+        <form id="scrapper" method="GET">  <!--the action here will scrape the desired content from reddit-->
+            <label id="subred" for="subreddit">Type Sub-Reddit:</label>
+            <input type="text" id="subs" name="subreddit">
+            <label id="posts" for="postcount">Select Post Count:</label>
+            <input type="number" min="1" max="10" id="postcount" name="postcount">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="index.js"></script>
+
+    <div class="micro">
+        <form id="micro">  <!---action here will use teammates microservice to encrypt content-->
+            <input type="submit" value="Encrypt">
+            <input type="submit" value="Decrypt">
+        </form>
+    </div>
+</div>
+ </body>

@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, red, red, white, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  h1{
+      border-bottom: 2px solid white;
+      font-size: 50px;
+  }
+
+
+#subred{
+    color: white;
+}
+
+
+#posts{
+    color: white;
+}
+
+.container {
+    width: 100%;
+  }
+  .selector {
+    width: 80%;
+    float: left;
+  }
+
+  .micro{
+      float: right;
+  }
+
+  
